@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+/* Header */
+
+header {
+  background: blue;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main */
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+/* Sections */
+
+section {
+  background: white;
+
+  margin-top: 20px;
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+/* Product Images */
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+}
+
+.scrollable {
+  display: flex;
+  overflow-x: auto;
+
+  gap: 10px;
+
+  padding: 10px;
+}
+
+.scrollable img {
+  width: 180px;
+  height: 150px;
+
+  object-fit: contain;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  background: white;
+}
+
+/* Buttons */
+
+button {
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.scroll-btn {
+  background: black;
+  color: white;
+
+  font-size: 20px;
+}
+
+#add-to-cart {
+  background: green;
+  color: white;
+}
+
+#checkout {
+  background: blue;
+  color: white;
+}
+
+/* Cart */
+
+#cart-items li {
+  margin: 10px 0;
+}
+
+/* Footer */
+
+footer {
+  background: blue;
+  color: white;
+
+  text-align: center;
+
+  padding: 10px;
+  margin-top: 20px;
+}

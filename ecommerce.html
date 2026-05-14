@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Storify</title>
+
+  <link rel="stylesheet" href="ecommerce.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Storify</h1>
+
+  <nav>
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Products Section -->
+  <section id="products">
+
+    <h2>Products</h2>
+
+    <div class="scroll-container">
+
+      <button class="scroll-btn left" data-target="product-carousel">
+        &#8249;
+      </button>
+
+      <div id="product-carousel" class="scrollable"></div>
+
+      <button class="scroll-btn right" data-target="product-carousel">
+        &#8250;
+      </button>
+
+    </div>
+
+    <div id="product-details">
+
+      <h3 id="product-title">Select a Product</h3>
+
+      <p id="product-description"></p>
+
+      <p id="product-price"></p>
+
+      <button id="add-to-cart" disabled>
+        Add to Cart
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Cart -->
+  <section id="cart">
+
+    <h2>Shopping Cart</h2>
+
+    <ul id="cart-items"></ul>
+
+    <p id="cart-total">Total: $0.00</p>
+
+    <button id="checkout" disabled>
+      Checkout
+    </button>
+
+  </section>
+
+  <!-- About -->
+  <section id="about">
+
+    <h2>About Us</h2>
+
+    <p>
+      Welcome to Storify. We provide quality products
+      with affordable pricing and great customer support.
+    </p>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Email: shanmukhasubrahmanyam0@gmail.com</p>
+
+    <p>
+      Phone:
+      <a href="tel:+919985365404">
+        +91 9985365404
+      </a>
+    </p>
+
+    <p>
+      Address: Seethanagaram, Andhra Pradesh, 533287
+    </p>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Storify. All Rights Reserved.</p>
+</footer>
+
+<script src="ecommerce.js"></script>
+
+</body>
+</html>
